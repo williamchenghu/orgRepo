@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import RepoListContainer from "./repoList/RepoList";
+import React, { Component } from 'react';
+import RepoList from './repoList/RepoList';
 
 class App extends Component {
-  render() {
-    return <RepoListContainer />;
-  }
+	render() {
+		return <RepoList />;
+	}
 }
 
 export default App;

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const RepoCard = (repoDetails) => {
-    return (
-        <div>{repoDetails.commits}</div>
-    );
-  };
-  
-  export default RepoCard;
-  
+const RepoCard = ({ repoDetails }) => (
+	<div>
+		<div>Repo:{repoDetails.name}</div>
+		<div />
+	</div>
+);
+
+export default RepoCard;
