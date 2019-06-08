@@ -1,5 +1,5 @@
-import React, { Component }  from 'react';
-import RepoListContainer from './repoList/containers/RepoListContainer';
+import React, { Component } from "react";
+import RepoListContainer from "./repoList/RepoList";
 
 class App extends Component {
   render() {

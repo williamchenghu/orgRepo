@@ -1,10 +1,10 @@
 import React from 'react';
 
-const RepoCardCmp = (repoDetails) => {
+const RepoCard = (repoDetails) => {
     return (
         <div>{repoDetails.commits}</div>
     );
   };
   
-  export default RepoCardCmp;
+  export default RepoCard;
   
