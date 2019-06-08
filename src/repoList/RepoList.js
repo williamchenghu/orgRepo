@@ -6,8 +6,11 @@ const RepoList = () => {
 	const [repoList, setRepoList] = useState([]);
 
 	useEffect(() => {
-		api.get('orgs/vincit/repos').then(res => setRepoList(res.data));
-	});
+		api.get('orgs/vincit/repos').then(res => {
+			setRepoList(res.data);
+			console.log('repoList', res.data);
+		});
+	}, []);
 
 	return (
 		<div>
