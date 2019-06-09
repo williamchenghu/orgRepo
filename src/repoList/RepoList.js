@@ -8,7 +8,7 @@ const RepoList = () => {
 	const [orgInfo, setOrgInfo] = useState([]);
 
 	useEffect(() => {
-		api.get('orgs/vincit/repos').then(res => {
+		api.get('orgs/vincit/repos?per_page=100').then(res => {
 			setRepoList(res.data);
 		});
 		api.get('orgs/vincit').then(res => {
