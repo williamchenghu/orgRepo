@@ -1,0 +1,46 @@
+.orgHead {
+	margin: 1em;
+}
+
+.orgAvatar  {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.orgInfo {
+	display: inline-block;
+	padding-left: 1em;
+	line-height: 1.5em;
+}
+
+.orgName {
+    font-weight: 400;
+    color: #333;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+}
+
+.orgDescription {
+    color: #666;
+}
+
+.orgLink {
+    color: #ccc;
+}
+
+.orgEmail {
+    color: #ccc;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.orgLink-text {
+    font-size: 0.8em;
+    margin-left: 0.5em;
+    color: #586069;
+}
+
+.hr {
+    border: 1px solid #e1e4e8;
+    margin-top: 1.5em;
+}
