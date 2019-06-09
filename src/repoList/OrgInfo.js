@@ -9,7 +9,7 @@ const OrgInfo = ({ orgDetails }) => (
 			src={orgDetails.avatar_url}
 			width="100"
 			height="100"
-			alt="@Vincit"
+			alt={`@${orgDetails.name}`}
 		/>
 		<div className="orgInfo">
 			<h1 className="orgName">{orgDetails.name}</h1>
@@ -17,7 +17,7 @@ const OrgInfo = ({ orgDetails }) => (
 			<div>
 				<span className="orgLink">
 					<Octicon icon={Link} size="small" ariaLabel="GitHub" />
-					<a href={orgDetails.blog} className="orgLink-text">
+					<a href={orgDetails.blog} className="orgLink-text" target="_blank" rel="noopener noreferrer">
 						{orgDetails.blog}
 					</a>
 				</span>

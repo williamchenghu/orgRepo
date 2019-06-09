@@ -10,11 +10,9 @@ const RepoList = () => {
 	useEffect(() => {
 		api.get('orgs/vincit/repos').then(res => {
 			setRepoList(res.data);
-			// console.log('repoList', res.data);
 		});
 		api.get('orgs/vincit').then(res => {
 			setOrgInfo(res.data);
-			// console.log('Vincit', res.data);
 		});
 	}, []);
 

@@ -1,7 +1,40 @@
+body{
+    margin: auto 15%;
+}
+
 .repoCard {
     padding: 1.5em!important;
     border-bottom: 1px solid #e1e4e8!important;
+}
+
+.repoInfo {
+    display: inline-block;
     line-height: 1.5em;
+    width: 65%;
+}
+
+.repoContributor {
+    line-height: 1.2em;
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 0.9em;
+    color: #586069;
+    min-width: 35%;
+}
+
+.contributorAvatar {
+    display: inline-block;
+}
+
+.contributorOnFire {
+    color: #e73b2b!important;
+    margin-right: 0.3em;
+}
+
+.contributorName {
+    color: #586069!important;
+    text-decoration: none;
 }
 
 .repoName {
@@ -16,12 +49,12 @@
     font-size: 0.9em;
 }
 
-.repoInfo {
+.repoDetails {
     margin-right: 1em;
     font-size: 0.9em;
     color: #586069!important;
 }
 
-.repoInfo-icon {
+.repoDetails-icon {
     margin-right: 0.3em;
 }

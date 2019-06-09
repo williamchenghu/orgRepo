@@ -26,18 +26,19 @@
 
 .orgLink {
     color: #ccc;
+    margin-right: 1.5em;
 }
 
 .orgEmail {
     color: #ccc;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    margin-right: 1.5em;
 }
 
 .orgLink-text {
     font-size: 0.8em;
     margin-left: 0.5em;
     color: #586069;
+    text-decoration: none;
 }
 
 .hr {
