@@ -9,7 +9,7 @@ import Octicon, {
 	GitCommit,
 	Flame
 } from '@primer/octicons-react';
-import './RepoCard.css';
+import '../styles/RepoCard.css';
 
 const RepoCard = ({ repoDetails }) => {
 	const [contributor, setContributor] = useState({});

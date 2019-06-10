@@ -1,6 +1,6 @@
 import React from 'react';
 import Octicon, { Link, Mail } from '@primer/octicons-react';
-import './OrgInfo.css';
+import '../styles/OrgInfo.css';
 
 const OrgInfo = ({ orgDetails }) => (
 	<div className="orgHead">
