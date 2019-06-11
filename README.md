@@ -1,10 +1,12 @@
-# Frontend interview assignment
+# Frontend assignment
 
 #### Assignment
 
 >_Suunittele/toteuta valitsemillasi web-teknologiolla sovellus, joka Githubin avointa APIa hyödyntäen visualisoi Vincitin tilin alta löytyvät repositoryt ja niiden aktiivisimmat kommitoijat._
 
->_Valmistaudu keskustelemaan toteutuksestasi ja tekemistäsi teknologiavalinnoista._
+in English
+
+> _Design / execute an application with the web technology of your choice using the Github Open API to visualize the repositories and their Most Active commuters under the Vincit account._
 
 #### Implement Details
 
